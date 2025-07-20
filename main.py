@@ -25,12 +25,8 @@ trigger = Pin(27, Pin.OUT)  # トリガーピン（出力）
 echo    = Pin(26, Pin.IN)   # エコーピン（入力）
 
 # Wi-Fi設定（環境に応じて変更）
-#ssid = 'Buffalo-G-2B3E'
-#password = '5k8ud3revnvfu'
-#ssid = 'TP-Link_860E'
-#password = '81113927'
-ssid = 'SH-54Ca-9D339D'
-password = 'kg4Rfjzp0a'
+ssid = 'WIFI_SSID'
+password = 'password''
 
 # Wi-Fi接続設定
 wlan = network.WLAN(network.STA_IF)
